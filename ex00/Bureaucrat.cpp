@@ -86,5 +86,6 @@ std::ostream& operator<< (std::ostream& stream , const Bureaucrat& bureaucrat)
 		<< bureaucrat.getName()
 		<< ", bureaucrat grade "
 		<< bureaucrat.getGrade();
+
 	return stream;
 }

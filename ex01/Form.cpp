@@ -1,4 +1,6 @@
 #include <Form.hpp>
+#include <exception>
+#include <stdexcept>
 
 const char* Form::GradeTooHighException::what() const throw()
 {
@@ -49,6 +51,9 @@ void Form::beSigned(const Bureaucrat& bureaucrat)
 {
 	if(signGrade < bureaucrat.getGrade())
 		throw Form::GradeTooLowException();
+
+	if(isSigned)
+		throw std::runtime_error(name + ", already signed");
 
 	isSigned = true;
 }

@@ -41,6 +41,7 @@ int main() {
 
 			std::cout << me << std::endl;
 			me.signForm(contract);
+			me.signForm(contract);
 			std::cout << contract << std::endl ;
 		}
 		catch(std::exception &e)

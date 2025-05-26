@@ -25,8 +25,6 @@ class Form
 		int		getSignGrade() const;
 		int		getExecGrade() const;
 
-
-
 	GRADE_EXCEPTION_CLASS(Low);
 	GRADE_EXCEPTION_CLASS(High);
 };

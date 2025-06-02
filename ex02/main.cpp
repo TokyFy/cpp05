@@ -13,7 +13,7 @@ int main() {
 		try
 		{
 			Bureaucrat foo("Me" , 138);
-			ShrubberyCreationForm form("ft");
+			ShrubberyCreationForm form("maine");
 
 			foo.signForm(form);
 			foo.executeForm(form);

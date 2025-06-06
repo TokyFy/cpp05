@@ -5,6 +5,10 @@
 unsigned int __hash__(const std::string& word);
 
 int main() {
+
+    if(__h 
+
+
 	Intern me;
 
 	AForm *rb_form = me.makeForm("robotomy request", "people");

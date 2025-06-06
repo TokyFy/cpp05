@@ -1,7 +1,4 @@
 #include <PresidentialPardonForm.hpp>
-#include <AForm.hpp>
-#include <iostream>
-#include <string>
 
 PresidentialPardonForm::PresidentialPardonForm()
 	:AForm("PresidentialPardonForm" , 25 , 5) , target("Shrubbery")

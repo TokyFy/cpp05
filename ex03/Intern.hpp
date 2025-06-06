@@ -1,6 +1,10 @@
 #pragma once
 
-#include "AForm.hpp"
+#include <AForm.hpp>
+#include <string>
+#include <RobotomyRequestForm.hpp>
+#include <ShrubberyCreationForm.hpp>
+#include <PresidentialPardonForm.hpp>
 
 class Intern
 {

@@ -1,7 +1,5 @@
 #include <Bureaucrat.hpp>
 #include <AForm.hpp>
-#include <exception>
-#include <iostream>
 
 const char* Bureaucrat::GradeTooHighException::what() const throw()
 {

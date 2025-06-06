@@ -1,8 +1,4 @@
 #include <ShrubberyCreationForm.hpp>
-#include <AForm.hpp>
-#include <iostream>
-#include <fstream>
-#include <string>
 
 ShrubberyCreationForm::ShrubberyCreationForm()
 	:AForm("ShrubberyCreationForm" , 145 , 137) , target("Shrubbery")

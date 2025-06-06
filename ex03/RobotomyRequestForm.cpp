@@ -2,8 +2,6 @@
 #include <AForm.hpp>
 #include <cstdlib>
 #include <ctime>
-#include <iostream>
-#include <string>
 
 RobotomyRequestForm::RobotomyRequestForm()
 	:AForm("RobotomyRequestForm" , 72 , 45) , target("Human")

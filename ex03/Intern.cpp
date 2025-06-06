@@ -1,12 +1,4 @@
-#include "AForm.hpp"
 #include <Intern.hpp>
-#include <cctype>
-#include <cstddef>
-#include <iostream>
-#include <string>
-#include <RobotomyRequestForm.hpp>
-#include <ShrubberyCreationForm.hpp>
-#include <PresidentialPardonForm.hpp>
 
 Intern::Intern()
 {

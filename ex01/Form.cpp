@@ -1,6 +1,4 @@
 #include <Form.hpp>
-#include <exception>
-#include <stdexcept>
 
 const char* Form::GradeTooHighException::what() const throw()
 {
